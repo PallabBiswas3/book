@@ -1,0 +1,35 @@
+#best-selling {
+    padding: 20px;
+}
+
+#best-selling .books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.book-card {
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.book-card img {
+    width: 100px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.book-card h3 {
+    margin-top: 0;
+}
+
+
+@media (max-width: 768px) {
+    .book-card {
+        width: 100%;
+    }
+}

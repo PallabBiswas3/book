@@ -1,25 +1,30 @@
-import logo from './logo.svg';
+
+import React from 'react';
+import Navbar from './navbar';
+import Home from './home';
+import BestSelling from './bestSelling';
+import OurCollection from './ourCollection';
+import Review from './Review';
+import Contact from './contact';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Home />
+      <BestSelling />
+      <OurCollection />
+      <Review />
+      <Contact />
+      <button onClick={scrollToTop} id="btnTop">Back to Top</button>
     </div>
   );
+}
+
+
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 export default App;

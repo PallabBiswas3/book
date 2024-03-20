@@ -1,0 +1,40 @@
+/* Our Collection section Styles */
+#our-collection {
+    padding: 20px;
+}
+
+#our-collection .books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Book Card Styles */
+.book-card {
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.book-card img {
+    width: 100px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.book-card h3 {
+    margin-top: 0;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    #our-collection .books {
+        flex-direction: column;
+    }
+
+    .book-card {
+        width: 100%;
+    }
+}

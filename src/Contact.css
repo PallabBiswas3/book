@@ -1,0 +1,47 @@
+/* Contact section Styles */
+#contact {
+    padding: 20px;
+}
+
+/* Form Styles */
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input field Styles */
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+    width: 70%;
+    max-width: 300px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Submit button Styles */
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+}
+
+/* Hover effect on submit button */
+form input[type="submit"]:hover {
+    background-color: #555;
+}
