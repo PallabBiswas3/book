@@ -6,7 +6,9 @@ import BestSelling from './bestSelling';
 import OurCollection from './ourCollection';
 import Review from './Review';
 import Contact from './contact';
+import Footer from './footer';
 import './App.css';
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
       <OurCollection />
       <Review />
       <Contact />
+      <Footer />
       <button onClick={scrollToTop} id="btnTop">Back to Top</button>
     </div>
   );
