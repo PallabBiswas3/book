@@ -1,14 +1,10 @@
-/* Intro section Styles */
 #intro {
     font-size: 200%;
     text-align: center;
-    /* Intro section Styles */
-    background-image: url('bookstore.jpg');
+    background-image: url("bookstore.jpg");
     background-size: cover;
     background-position: center;
     color: #fff;
-    /* Adjust text color for better visibility */
     padding: 100px 20px;
-    /* Adjust padding as needed */
     text-align: center;
 }

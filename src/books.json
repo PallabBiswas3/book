@@ -1,7 +1,8 @@
 {
     "bestSelling": [
         {
-            "image": "harry.jpeg",
+            "name": "harry",
+            "url": "harry.jpeg",
             "title": "Book Title 1",
             "author": "Author Name 1",
             "description": "Description of Book 1",
@@ -9,7 +10,8 @@
             "offer": "Buy one get one free"
         },
         {
-            "image": "image2.jpg",
+            "name": "image2",
+            "url": "image2.jpg",
             "title": "Book Title 2",
             "author": "Author Name 2",
             "description": "Description of Book 2",
@@ -17,7 +19,8 @@
             "offer": "25% off"
         },
         {
-            "image": "image3.jpg",
+            "name": "harry",
+            "url": "image3.jpg",
             "title": "Book Title 3",
             "author": "Author Name 3",
             "description": "Description of Book 3",
@@ -27,7 +30,8 @@
     ],
     "ourCollection": [
         {
-            "image": "image4.jpg",
+            "name": "harry",
+            "url": "image4.jpg",
             "title": "Book Title 4",
             "author": "Author Name 4",
             "description": "Description of Book 4",
@@ -35,16 +39,16 @@
             "offer": "20% off"
         },
         {
-            "image": "image5.jpg",
-            "title": "Book Title 5",
+            "name": "harry",
+            "url": "image5.jpg",
             "author": "Author Name 5",
             "description": "Description of Book 5",
             "price": "$21.99",
             "offer": "15% off"
         },
         {
-            "image": "image6.jpeg",
-            "title": "Book Title 6",
+            "name": "harry",
+            "url": "image6.jpeg",
             "author": "Author Name 6",
             "description": "Description of Book 6",
             "price": "$17.99",

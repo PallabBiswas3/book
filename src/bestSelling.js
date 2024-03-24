@@ -15,7 +15,7 @@ const BestSelling = () => {
             <div className="books">
                 {bestSellingBooks.map(book => (
                     <div key={book.id} className="book-card">
-                        <img src={book.image} alt="Book Cover" />
+                        <img src={process.env.PUBLIC_URL + '/image/' + book.url} alt="Book Cover" />
                         <h3>{book.title}</h3>
                         <p>Author: {book.author}</p>
                         <p>{book.description}</p>

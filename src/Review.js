@@ -10,7 +10,7 @@ const Review = () => {
             <div className="reviews">
                 {reviews.map(reviews => (
                     <div key={reviews.id} className="review">
-                        <img src={reviews.avatar} alt="Customer Avatar" />
+                        <img src={process.env.PUBLIC_URL + '/image/' + reviews.url} alt="Customer Avatar" />
                         <div className="review-content">
                             <h3>{reviews.name}</h3>
                             <p>{reviews.description}</p>

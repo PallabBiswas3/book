@@ -2,17 +2,17 @@
     "reviews": [
         {
             "name": "John Doe",
-            "avatar": "man2.jpeg",
+            "url": "man2.jpeg",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet arcu vel ullamcorper venenatis."
         },
         {
             "name": "Jane Smith",
-            "avatar": "man1.jpeg",
+            "url": "man1.jpeg",
             "description": "Nullam sit amet nisi vel sem volutpat interdum. Proin tempor, sapien sit amet molestie pulvinar, lectus purus finibus metus."
         },
         {
             "name": "Alice Johnson",
-            "avatar": "man3.avif",
+            "url": "man3.avif",
             "description": "Fusce auctor vehicula velit, non euismod nunc lacinia non. Vivamus scelerisque dui vel nisi semper, a elementum turpis fermentum."
         }
     ]
